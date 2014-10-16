@@ -38,7 +38,7 @@ a{text-decoration:none;color:black;}
 #header_left{width:25%; float:left;}
 #header_title{width:75%;float:left;}
 
-/* navigator */
+/* content */
 #content {width:100%;clear:both;}
 #content_list1{clear:both;}
 #content_list2{clear:both;}
@@ -47,6 +47,7 @@ a{text-decoration:none;color:black;}
 #content_main{float:left;}
 /* 2page */
 #content_image{float:left;}
+/* navbar */
 #navbar ul {margin:0;padding:0;}
 #navbar ul li {float:left;}
 #navbar ul li a{
