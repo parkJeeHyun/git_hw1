@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="./style.css" type ="text/css" rel="stylesheet" />
+		<title>자기소개서</title>
+	</head>
+	<body>
+	<div id="wrap">
+		<div id="header">
+			<div id="header_left">
+				<img src="./images/jh.jpg" width="130" height="150" alt="JEEHYUN">
+			</div>
+			<div id="header_title">
+				<img src="./images/title.jpg" width="390" height="150" alt="title">
+			</div>	
+		</div>
+		<div id="content">
+			<br/>
+			<div id="navbar">
+			<ul>
+					<li>
+					<a href="./index.html" class="selected">1PAGE</a></li>
+					<li>
+					<a href="./index2.html" class="selected">2PAGE</a></li>
+					<li>
+					<a href="./index3.html" class="selected">3PAGE</a></li>
+			</ul>
+			</div>
+			<br/><br/>
+			<form action="#" method="post">
+			<hr/>
+			<h2><b>☆ 설문조사</b></h2>
+			<hr/>
+			▶ 설문자 이름 : <input type="text" size="10" maxlength="7" name="name"/><br/><br/>
+			▶ 비 밀 번 호 : <input type="password" size="10" name="password"/><br/><br/>
+			<ol>
+				<li>당신의 성별을 선택하시오.<br/>
+					<input type="radio" name="fm" value="male" checked/>남자
+					<input type="radio" name="fm" value="female"/>여자
+				</li>
+				<li>나의 취미를 선택하시오.(중복선택가능)
+					<input type="checkbox" name="hobby" value="soccer"/>축 구
+					<input type="checkbox" name="hobby" value="game"/>게 임
+					<input type="checkbox" name="hobby" value="reading"/>책 읽기
+					<input type="checkbox" name="hobby" value="music"/>음악 감상
+					<input type="checkbox" name="hobby" value="movie"/>영화 감상
+				</li>
+				<li>나의 특기를 선택하시오.(중복선택가능)
+					<input type="checkbox" name="hobby" value="mt"/>무에타이
+					<input type="checkbox" name="hobby" value="tkd"/>태권도
+					<input type="checkbox" name="hobby" value="computer"/>컴퓨터
+					<input type="checkbox" name="hobby" value="swim"/>수영
+					<input type="checkbox" name="hobby" value="rap"/>랩
+				</li>
+				<li>학년을 선택시오.
+					<select name="grade">
+						<option value="g1">1학년
+						<option value="g2">2학년
+						<option value="g3">3학년
+						<option value="g4">4학년
+					</select>
+
+					<select name="hakgi" size="1">
+						<option value="h1">1학기
+						<option value="h2">2학기
+					</select>
+
+
+			</ol>
+			<br/><br/>
+				<hr/>
+				<h2><b>☆ 기타의견</b></h2>
+				<hr/>
+				<textarea name="content" cols="56" rows="10">
+				</textarea>
+
+				<br/>
+
+				<input type="reset" value="취소하기"/>
+				<input type="submit" value="전송하기"/>
+				<br/><br/><br/><br/>
+
+		</form>
+		</div>
+	</div>
+	</body>
+</html>
